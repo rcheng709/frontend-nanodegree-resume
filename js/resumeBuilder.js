@@ -6,25 +6,31 @@ var bio = {
 	"name":"Richard Cheng",
 	"role":"Front-End Web Developer",
 	"contacts": { "mobile": "407-000-0000","email": "rcheng709@gmail.com",
-		"github": "ichard", "twitter": "twitty", "location": "Florida"},
+		"github": "https://github.com/rcheng709/frontend-nanodegree-resume", "twitter": "N/A", "location": "Florida"},
 	"bioPic": "images/me.jpg",
 	"welcomeMsg": "I am seeking work as a Front-End Web Developer",
-	"skills": ["javascript","python","HTML","CSS"],
+	"skills": ["javascript","python","HTML","CSS","Cybersecurity","Data Center"],
 };
 
 var work = {
 	"jobs":[
 	{
 	"employer":"AT&T","title":"Senior Switch Technician", "location":"Lake Mary,FL",
-	"dates":"July 2009 to Current", "description":"Maintenance of Data Center"
+	"dates":"July 2009 to Current", "description":"Maintenance and operations of Regional Data Center and Mobile Telephone Switching Office switch at Lake Mary, Florida."+
+	"Break/Fix on hardware of servers, network equipment using recommended tools"+"Ensure high reliability of network equipment such as routers in the data center facility by performing routines in diligent manner."
+
 	},
 	{
 	"employer":"Cellular One","title":"MGW/BSC Technician", "location":"Bastrop,TX",
-	"dates":"February 2009 to July 2009", "description":"Maintenance of Data Center"	
+	"dates":"February 2009 to July 2009", "description":"Responsible for maintaining high reliability of Mobile switching center in Bastrop, Texas."+
+	"Maintained and operated Nokia MGW, Nokia BSC3i"+"Ensure that all transmission, switching and cell site equipment are with 100% reliability"+
+	"Provisioning and turn-up of OC12 circuits"	
 	},
 	{
 	"employer":"Mycom USA","title":"NSS Engineer", "location":"Orlando, Florida",
-	"dates":"January 2003 to January 2009", "description":"Implementation of 2G, 3G and 4G networks"
+	"dates":"January 2003 to January 2009", "description":"Implemented core network equipment for major wireless providers."+
+	"Successfully troubleshoots hardware and software alarms on network equipment"+
+	"Commissioned effectively the following equipment BSS, MSC, BTS, MGW and SGSN with minimal deviations"
 	}]
 };
 
