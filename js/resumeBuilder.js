@@ -74,7 +74,7 @@ var project = {
 		}
 	]
 };
-
+/*Display Contact Info Header and Footer section*/
 bio.display =function(){
 	var formattedName=HTMLheaderName.replace("%data%", bio.name);
 	$("#header").append(formattedName);
@@ -95,15 +95,12 @@ bio.display =function(){
 	$("#header").append(formattedMobile);
 	$("#footerContacts").append(formattedMobile);
 
-	/*$("#topContacts").append(formattedContactInfo);
-	$("#footerContacts").append(formattedContactInfo);*/
 	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 	$("#header").append(formattedEmail);
 	var formattedGithub= HTMLgithub.replace("%data%", bio.contacts.github);
 	$("#header").append(formattedGithub);
 	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 	$("#header").append(formattedLocation);
-
 
 	$("#header").append(HTMLskillsStart);
 	bio.skills.forEach(function(skill){
