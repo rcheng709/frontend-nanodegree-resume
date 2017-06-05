@@ -23,7 +23,9 @@ h6 {
 .project-entry {
   padding: 0 5%;
 }
-
+hr{
+  width:100%;
+}
 h1 {
   font-size: 40px;
   color: #000000;
@@ -97,6 +99,7 @@ a {
   font-size: 18px;
   color: #f3f3f3;
   line-height: 28px;
+  width:100%;
 }
 
 #skills-h3 {
@@ -127,11 +130,14 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
+
 #header {
   background-color: #3491CA;
 }
-
+.flex-item{
+  text-align: left;
+  width:100%;
+}
 .flex-box {
   display: -webkit-flex;
   display: flex;
@@ -157,10 +163,12 @@ ul {
 }
 
 .biopic {
-  float: left;
   padding: 10px;
   width: 200px;
-  display: none;
+  display:none;
+  border:10px;
+  border-color:#FF33FF; 
+  border-width: 5px;
 }
 
 img {
@@ -170,7 +178,6 @@ img {
 span {
   padding: 5px;
   font-style: italic;
-  font-size:100%;
   font-weight: bold;
 }
 
@@ -220,6 +227,6 @@ span {
 @media only screen and (min-width: 750px) {
   #skills-h3,
   .biopic {
-    display: inline;
+    display: block;
   }
 }
