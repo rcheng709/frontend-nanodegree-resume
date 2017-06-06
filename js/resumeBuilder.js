@@ -6,7 +6,7 @@ var bio = {
 	"role":"Front-End Web Developer",
 	"contacts": { "mobile": "407-000-0000","email": "rcheng709@gmail.com",
 		"github": "https://github.com/rcheng709/frontend-nanodegree-resume", "twitter": "Richard@twitter", "location": "Florida"},
-	"welcomeMsg": "I am seeking work as a Front-End Web Developer",
+	"welcomeMessage": "I am seeking work as a Front-End Web Developer",
     "skills": ["javascript","python","HTML","CSS","Cybersecurity","Data Center"],
 	"biopic": "images/me.jpg",
 };
@@ -39,7 +39,7 @@ var education={
 				"dates": "August 2014 - July 2016",
 				"location": "Burlington, Vermont",
 				"degree": "none",
-				"majors": "Cybersecurity certificate",
+				"majors": ["Cybersecurity certificate"],
 				"url": "https://champlain.edu"
 			}
 	],
@@ -84,7 +84,7 @@ bio.display =function(){
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
 	$("#topContacts").append(formattedBioPic);
 
-	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
+	var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
 	$("#topContacts").append(formattedWelcomeMsg);
 
 	var formattedTwitter = HTMLtwitter.replace("%data%",bio.contacts.twitter);
